@@ -21,6 +21,6 @@
     </bean>
 
     <bean id="computer" class="com.Sourav.Desktop" primary="true" />
-    <bean id="laptop" class="com.Sourav.Laptop" />
+    <bean id="laptop" class="com.Sourav.Laptop" lazy-init="true" />
 
 </beans>
